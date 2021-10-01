@@ -13,7 +13,7 @@ const Button: FC<Props> = ({ text, size }) => {
       case "medium":
         return "w-48 h-12 text-lg font-medium";
       case "large":
-        return "w-96 h-16 font-bold text-2xl";
+        return "w-80 md:w-96 h-16 font-bold text-2xl";
     }
   }
 

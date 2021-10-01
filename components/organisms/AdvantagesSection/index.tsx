@@ -4,12 +4,12 @@ import AdvantageCard from "@/components/molecules/AdvantageCard";
 
 const AdvantagesSection = () => {
   return (
-    <section style={{ backgroundColor: "#f5f5f5" }} className="py-16">
+    <section style={{ backgroundColor: "#f5f5f5" }} className="py-16 px-5">
       <div className="content_wrapper">
         <h1 className="text-5xl text-grey text-center">
           Quais as vantagens ao importar produtos?
         </h1>
-        <div className="grid grid-cols-3 gap-8 py-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-16">
           <AdvantageCard
             icon="economy"
             title="Economia"

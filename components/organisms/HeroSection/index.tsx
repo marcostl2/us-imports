@@ -8,7 +8,7 @@ import CartMan from "@/assets/images/illustrations/cart_man.svg";
 function HeroSection() {
   return (
     <main className="flex py-16 content_wrapper">
-      <div>
+      <div className="px-5">
         <h1 className="text-5xl text-grey">
           Compre nos Estados Unidos e receba na porta de sua casa
         </h1>
@@ -18,7 +18,9 @@ function HeroSection() {
         </p>
         <Button text="Começar agora" size="large" />
       </div>
-      <Image src={CartMan} alt="Homem com Carrinho de compras" width={1200} />
+      <div className="hidden md:flex">
+        <Image src={CartMan} alt="Homem com Carrinho de compras" width={1200} />
+      </div>
     </main>
   );
 }

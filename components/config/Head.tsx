@@ -1,6 +1,8 @@
 import React from "react";
 import Head from "next/head";
 
+import OGImage from "@/assets/images/og_image.png";
+
 const WebsiteHead = () => {
   return (
     <Head>
@@ -13,6 +15,13 @@ const WebsiteHead = () => {
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
         rel="stylesheet"
       />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="US Imports" />
+      <meta
+        property="og:description"
+        content="Importe suas mercadorias com facilidade e rapidez"
+      />
+      <meta property="og:image" itemProp="image" content={OGImage.src} />
     </Head>
   );
 };

@@ -5,9 +5,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#55C287",
-        grey: "#3E4340",
-        lightGrey: "#808080",
+        primary: "var(--primary)",
+        grey: "var(--grey)",
+        lightGrey: "var(--lightGrey)",
       },
       borderRadius: {
         DEFAULT: "100px",
